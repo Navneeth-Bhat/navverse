@@ -1,0 +1,24 @@
+<header>
+<div class="header_container">
+<div class="header_title">
+<h1>navverse</h1>
+</div>
+<div class="header_info">
+ <ul>
+    <%if (locals.user) {%>
+    <li><%=user.name%></li>
+    <li><button><a href ="/users/sign-out">Sign Out</a></button>
+    </li>
+    <% }else{ %>
+    <li><button><a href ="/users/sign-in">Sign In</a></button>
+    
+    </li>
+     <li><button><a href ="/users/sign-up">Sign Up</a></button>
+     </li>
+    <% } %>
+    </ul>
+</div>
+</div>
+
+
+</header>
