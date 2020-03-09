@@ -1,0 +1,9 @@
+#home_container {
+  display: flex; }
+  #home_container #feed-posts {
+    width: 75%;
+    padding: 3rem; }
+  #home_container #user-friends {
+    width: 10%;
+    padding: 3rem;
+    height: 100%; }
